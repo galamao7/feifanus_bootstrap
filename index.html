@@ -33,6 +33,8 @@
   </head>
 
 
+<!-- TODO 整个页面所有超链接 -->
+
 <!-- NAVBAR
 ================================================== -->
   <body>
@@ -52,7 +54,6 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">首页</a></li>
             <li><a href="http://www.feifanus.com/servers/index_1.html">关于我们</a></li>
-            <!-- TODO 加以下所有项目链接 -->
             <li><a href="#">非凡之旅</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">非凡项目 <span class="caret"></span></a>
@@ -82,6 +83,10 @@
       </div>
     </nav>
 
+
+
+
+
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -92,33 +97,75 @@
         <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
+        <!--FIRST SLIDE-->
         <div class="item active">
           <img class="first-slide img-responsive" src="image/1140x350-3.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
+              <!-- START SEARCH BAR -->
+              <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-lg-8">
+                  <div class="input-group">
+                    <input type="text" class="form-control-large form-control" placeholder="输入目的地、景点、主题、服务……"><!-- /input-group -->
+                    <span class="input-group-btn">
+                      <button class="btn-large btn btn-default" type="button">搜索</button>
+                    </span>
+                  </div>
+                </div>
+                <div class="col-md-2"></div>
+              </div>
+            <!-- END SEARCH BAR -->
               <h1>非凡北美品质旅行</h1>
               <p>您专属的北美旅行私人顾问<p>
-              <a class="btn btn-lg btn-primary" href="#" role="button">了解更多</a></p>
             </div>
           </div>
         </div>
+        <!--SECOND SLIDE-->
         <div class="item">
           <img class="second-slide" src="image/1140x350-2.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
+            <!-- START SEARCH BAR -->
+              <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-lg-8">
+                  <div class="input-group">
+                    <input type="text" class="form-control-large form-control" placeholder="输入目的地、景点、主题、服务……"><!-- /input-group -->
+                    <span class="input-group-btn">
+                      <button class="btn-large btn btn-default" type="button">搜索</button>
+                    </span>
+                  </div>
+                </div>
+                <div class="col-md-2"></div>
+              </div>
+            <!-- END SEARCH BAR -->
               <h1>非凡北美赴美生子</h1>
               <p>助您『美』梦成真！</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">了解更多</a></p>
             </div>
           </div>
         </div>
+        <!--THIRD SLIDE-->
         <div class="item">
           <img class="third-slide" src="image/1140x350-1.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
+              <!-- START SEARCH BAR -->
+              <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-lg-8">
+                  <div class="input-group">
+                    <input type="text" class="form-control-large form-control" placeholder="输入目的地、景点、主题、服务……"><!-- /input-group -->
+                    <span class="input-group-btn">
+                      <button class="btn-large btn btn-default" type="button">搜索</button>
+                    </span>
+                  </div>
+                </div>
+                <div class="col-md-2"></div>
+              </div>
+              <!-- END SEARCH BAR -->
               <h1>非凡北美赴美整形</h1>
               <p>生活很美，你可以更美！</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">了解更多</a></p>
             </div>
           </div>
         </div>
@@ -137,35 +184,31 @@
     <!-- START TRAVEL SERVICE INTRODUCTION -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
+
+
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-sm-6 text-center">
-          <img class="img-circle" src="image/quality-travel-1.jpg" width="140" height="140">
+        <div class="col-md-3 text-center">
+          <img class="img-circle" src="image/quality-travel-1.jpg" width="200" height="200">
           <h2>轻奢之旅</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p style="margin-left: 8%; margin-right: 8%">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-sm-6 text-center">
-          <img class="img-circle" src="image/theme-travel-1.jpg" width="140" height="140">
+        <div class="col-md-3 text-center">
+          <img class="img-circle" src="image/theme-travel-1.jpg" width="200" height="200">
           <h2>主题之旅</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p style="margin-left: 8%; margin-right: 8%">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-sm-6 text-center">
-          <img class="img-circle" src="image/luxury-travel-1.jpg" width="140" height="140">
+        <div class="col-md-3 text-center">
+          <img class="img-circle" src="image/luxury-travel-1.jpg" width="200" height="200">
           <h2>奢华之旅</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p style="margin-left: 8%; margin-right: 8%">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-sm-6 text-center">
-          <img class="img-circle" src="image/customization-1.jpg" width="140" height="140">
+        <div class="col-md-3 text-center">
+          <img class="img-circle" src="image/customization-1.jpg" width="200" height="200">
           <h2>私人定制</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-md-4">
+          <p style="margin-left: 8%; margin-right: 8%">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -221,7 +264,7 @@
 
       <!-- /START THE FEATURES -->
 
-    <div class="text-center">
+    <div class="row text-center" style="background-color: rgba(255, 235, 59, 0.74);padding-top: 20px;">
       <dl class="col-sm-3 ">
           <dt></dt>
           <dd>
@@ -263,11 +306,11 @@
 
       <!-- START FOOTER -->
       <footer class="text-center">
-        <p>&copy; 2015 Company, Inc. &middot;
-        <a href="http://www.feifanus.com/servers/index_1.html" target="_blank" rel="nofollow">关于我们</a>
-        <a href="http://www.feifanus.com/servers/index_1.html" target="_blank" rel="nofollow">法律声明 </a>
-        <a href="http://www.feifanus.com/servers/index_2.html" target="_blank" rel="nofollow">联系我们</a>
-        <a href="http://www.feifanus.com/servers/index_10.html" target="_blank" rel="nofollow">隐私保护</a>
+        <p style="padding-top: 20px;">&copy; 2015 Company, Inc. &middot;
+        <a href="http://www.feifanus.com/servers/index_1.html" target="_blank" rel="nofollow">关于我们</a>&nbsp&nbsp
+        <a href="http://www.feifanus.com/servers/index_1.html" target="_blank" rel="nofollow">法律声明 </a>&nbsp&nbsp
+        <a href="http://www.feifanus.com/servers/index_2.html" target="_blank" rel="nofollow">联系我们</a>&nbsp&nbsp
+        <a href="http://www.feifanus.com/servers/index_10.html" target="_blank" rel="nofollow">隐私保护</a>&nbsp&nbsp
         <a href="http://www.feifanus.com/servers/index_7.html" target="_blank" rel="nofollow">法律声明</a>
       </footer>
       <!-- START FOOTER -->
@@ -281,7 +324,7 @@
                 <dl>
                     <dt class="h3">友情链接：</dt>
                     <dd>
-                      <a href="http://hotels.usitrip.com/" target="_blank">走四方酒店预订</a>
+                      <a href="http://hotels.usitrip.com/" target="_blank">走四方酒店预订</a>&nbsp&nbsp
                       <a href="http://www.gogogous.com/plus/view.php?aid=1303" target="_blank">佳晨旅游</a>
                     </dd>
                 </dl>
@@ -297,13 +340,11 @@
     <!-- TODO: BACK TO TOP, 微信扫描类似HH-->
 
 
-
-
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- TODO 引用JS-->
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
