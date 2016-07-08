@@ -22,7 +22,7 @@ body {
 }
 
 .m2them_t1 {
-  font-size: 32px;
+  font-size: 25px;
   line-height: 72px;
   height: 72px;
   overflow: hidden;
@@ -30,6 +30,8 @@ body {
 
 .m2them_p1 {
   line-height: 24px;
+  max-height: 80px;
+  overflow: hidden;
   margin-bottom: 22px;
 }
 
@@ -50,6 +52,15 @@ body {
 .background-tiffany {
   background-color: #61ccc2;
   color: #fff;
+}
+
+.background-red {
+  background-color: #e2574d;
+  color: #fff;
+}
+
+.section{
+  margin-bottom: 50px;
 }
 
 .section .sub_title {
@@ -84,6 +95,7 @@ body {
   background-color: #46a1a1;
   border-bottom: 1px solid #58d7d7;
 }
+
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -148,8 +160,21 @@ body {
   height: 50px
 }
 
+
 .btn-large {
-  line-height: 36px
+  line-height: 36px;
+  width: 120px;
+  font-size: 20px;
+}
+.btn-medium {
+  line-height: 26px;
+  width: 100px;
+  font-size: 16px;
+}
+.btn-small {
+  line-height: 18px;
+  width: 80px;
+  font-size: 13px;
 }
 
 .p-narrow {
@@ -254,18 +279,22 @@ body {
   display:block;
 }
 
-
+.service-background {
+  height:400px;
+  border-bottom: 1px solid white;
+}
 
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-@media (max-width: 1200px){
+@media (max-width: 850px){
   .nav>li.navbar-display {
     display: none;
   }
 }
 
-@media (min-width: 1200px) {
+
+@media (min-width: 769px) {
   /* Navbar positioning foo */
   .navbar-collapse {
     width: auto;
