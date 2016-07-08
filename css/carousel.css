@@ -157,6 +157,22 @@ body {
   margin-right: 20px;
 }
 
+.menu-fancy {
+  width: 200px;
+  background: rgba(240,240,240,0.8);
+  padding: 38px 0px 0px;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+}
+
+.menu-fancy li{
+  width:100%;
+  text-align: center;
+  height: 40px;
+  float:;}
+
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 

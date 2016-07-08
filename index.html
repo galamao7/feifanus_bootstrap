@@ -15,6 +15,7 @@
     <!-- Bootstrap core CSS -->
     <!--TODO 字体-->
     <!--TODO keywords-->
+    <!--TODO img-alt-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -41,10 +42,11 @@
 
 
 
-<!-- NAVBAR
-================================================== -->
+
   <body style="padding-bottom:0;">
-        <!-- Fixed navbar -->
+
+
+    <!-- START NAVBAR-->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -58,19 +60,29 @@
             <img alt="Brand" src="image/logo.png" height="50px">
           </a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar" class="navbar-collapse collapse text-center">
           <ul class="nav navbar-nav">
             <li class="nav-active background-tiffany"><a href="#" style="color: #fff;">首页</a></li>
             <li><a href="http://www.feifanus.com/servers/index_1.html">关于我们</a></li>
             <li><a href="#">非凡之旅</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">非凡服务 <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">赴美生子</a></li>
-                <li><a href="#">试管婴儿</a></li>
-                <li><a href="#">赴美整形</a></li>
-                <li><a href="#">房产投资</a></li>
-                <li><a href="#">美国留学</a></li>
+              <ul class="dropdown-menu menu-fancy text-center">
+                <li><a href="#">
+                  <span class="glyphicon glyphicon-baby-formula"></span>
+                  &nbsp赴美生子</a></li>
+                <li><a href="#">
+                  <span class="glyphicon glyphicon-grain"></span>
+                  &nbsp试管婴儿</a></li>
+                <li><a href="#">
+                  <span class="glyphicon glyphicon-sunglasses"></span>
+                  &nbsp赴美整形</a></li>
+                <li><a href="#">
+                  <span class="glyphicon glyphicon-home"></span>
+                  &nbsp房产投资</a></li>
+                <li><a href="#">
+                  <span class="glyphicon glyphicon-education"></span>
+                  &nbsp美国留学</a></li>
               </ul>
             </li>
           </ul>
@@ -82,57 +94,45 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li class="navbar-display"><a><img src="image/call-1.png" width="25px">&nbsp 中国电话：950-4040-9699</a></li>
+            <li class="navbar-display"><a><span class="glyphicon glyphicon-phone-alt"></span>&nbsp 中国电话：950-4040-9699</a></li>
             <li><a href="http://www.feifanus.com/member/register">免费注册</a></li>
             <li class="nav-active background-tiffany"><a href="http://www.feifanus.com/search/order" style="color: #fff;">订单查询<span class="sr-only">(current)</span></a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </nav>
+    <!-- END NAVBAR-->
 
 
 
-
-    <!-- Carousel
-    ================================================== -->
+    <!-- START Carousel -->
     <div class="container text-center">
       <div id="myCarousel" class="carousel slide main-container pad-bottom-0" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators" style="margin-bottom: 2px;">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
         <div class="carousel-inner" role="listbox">
+          <!-- Indicators -->
+          <ol class="carousel-indicators" style="margin-bottom: 20px;">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
           <!--FIRST SLIDE-->
           <div class="item active">
             <a href="#">
               <img class="autoImg first-slide img-responsive pic-banner" src="image/banner-beach-1.jpg" alt="First slide" style="align-items: center;">
             </a>
-            <div class="container">
-              <div class="carousel-caption">
-              </div>
-            </div>
           </div>
           <!--SECOND SLIDE-->
           <div class="item">
             <a href="#">
               <img class="autoImg first-slide img-responsive pic-banner" src="http://placehold.it/1200x550.jpg" alt="First slide" style="align-items: center;">
             </a>
-            <div class="container">
-              <div class="carousel-caption">
-              </div>
-            </div>
           </div>
           <!--THIRD SLIDE-->
           <div class="item">
             <a href="#">
               <img class="autoImg first-slide img-responsive pic-banner" src="http://placehold.it/1200x550.jpg" alt="First slide" style="align-items: center;">
             </a>
-            <div class="container">
-              <div class="carousel-caption">
-              </div>
-            </div>
+      <!--carosel control-->
           </div>
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -143,16 +143,11 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </div><!-- /.carousel -->
+    <!-- END carousel -->
 
 
 
-
-    <!-- START TRAVEL SERVICE INTRODUCTION -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-
-
+    <!-- START TRAVEL INTRODUCTION -->
     <div class="main-container marketing">
       <!-- START THEME DIVIDER-->
       <div class="index_themedivider">
@@ -168,31 +163,30 @@
               <h3>轻奢之旅</h3>
               <p class="sub_title">Luxury Hotel &amp; Resort Collection</p>
           </div>
-        </div>
+        </div><!--轻奢-->
         <div class="col-md-3 text-center">
           <img class="img-circle" src="image/theme-travel-1.jpg" width="200" height="200">
           <div class="section">
               <h3>主题之旅</h3>
               <p class="sub_title">Luxury Hotel &amp; Resort Collection</p>
           </div>
-        </div>
+        </div><!--主题-->
         <div class="col-md-3 text-center">
           <img class="img-circle" src="image/luxury-travel-1.jpg" width="200" height="200">
           <div class="section">
               <h3>奢华之旅</h3>
               <p class="sub_title">Luxury Hotel &amp; Resort Collection</p>
           </div>
-        </div>
+        </div><!--奢华-->
         <div class="col-md-3 text-center">
           <img class="img-circle" src="image/customization-1.jpg" width="200" height="200">
           <div class="section">
               <h3>私人定制</h3>
               <p class="sub_title">Luxury Hotel &amp; Resort Collection</p>
           </div>
-        </div>
+        </div><!--私定-->
       </div><!-- /.row -->
-
-      <!-- END TRAVEL SERVICE INTRODUCTION -->
+    <!-- END TRAVEL INTRODUCTION -->
 
 
 
@@ -216,8 +210,7 @@
 
 
 
-      <!-- START THE PROJECTS -->
-
+    <!-- START THE SERVICES -->
     <div class="main-container">
       <!-- START THEME DIVIDER-->
       <div class="index_themedivider">
@@ -225,7 +218,32 @@
           <img alt="非凡北美，赴美服务领航者" src="image/title-service.jpg" class="themedivider_pic img-responsive">
       </div>
       <!-- END THEME DIVIDER-->
-      <li style="background: url(image/background-baby.jpg) no-repeat center bottom; height:400px; border-bottom: 3px solid white;">
+      <li style="background: url(image/background-book.jpg) no-repeat center bottom; height:400px; border-bottom: 2px solid white;">
+          <div class="container">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+              <div class="m2them_dtlBox">
+                  <div class="m2them_t1">赴美留学<span>Enjoy life</span></div>
+                  <div class="m2them_p1">这是一种瑰丽的、繁复的、细致的、高级的旅行方式。要求旅行者有豁达的心境，善于发现生活中的“美”，见到美好的事物能激发自身赞颂美的本能，可以为美好的情感一掷千金终不悔。     </div>
+                  <p align="right"><a href="/themelist/77/" class="m2them_more2"></a></p>
+              </div>
+            </div>
+          </div><!--留学-->
+      </li>
+      <li style="background: url(image/background-plastic.jpg) no-repeat center bottom; height:400px; border-bottom: 2px solid white;">
+          <div class="container">
+            <div class="col-md-6">
+              <div class="m2them_dtlBox">
+                  <div class="m2them_t1">赴美整形<span>Enjoy life</span></div>
+                  <div class="m2them_p1">这是一种瑰丽的、繁复的、细致的、高级的旅行方式。要求旅行者有豁达的心境，善于发现生活中的“美”，见到美好的事物能激发自身赞颂美的本能，可以为美好的情感一掷千金终不悔。     </div>
+                  <p align="right"><a href="/themelist/77/" class="m2them_more2"></a></p>
+              </div>
+            </div>
+            <div class="col-md-6"></div>
+          </div><!--整形-->
+      </li>
+      </li>
+      <li style="background: url(image/background-baby.jpg) no-repeat center bottom; height:400px; border-bottom: 2px solid white;">
           <div class="container">
             <div class="col-md-6"></div>
             <div class="col-md-6">
@@ -235,9 +253,9 @@
                   <p align="right"><a href="/themelist/77/" class="m2them_more2"></a></p>
               </div>
             </div>
-          </div>
+          </div><!--生子-->
       </li>
-      <li style="background: url(image/background-ivf.jpg) no-repeat center bottom; height:400px; border-bottom: 3px solid white;">
+      <li style="background: url(image/background-ivf.jpg) no-repeat center bottom; height:400px; border-bottom: 2px solid white;">
           <div class="container">
             <div class="col-md-6">
               <div class="m2them_dtlBox">
@@ -247,21 +265,9 @@
               </div>
             </div>
             <div class="col-md-6"></div>
-          </div>
+          </div><!--试管-->
       </li>
-      <li style="background: url(image/background-baby.jpg) no-repeat center bottom; height:400px; border-bottom: 3px solid white;">
-          <div class="container">
-            <div class="col-md-6"></div>
-            <div class="col-md-6">
-              <div class="m2them_dtlBox">
-                  <div class="m2them_t1">赴美整形<span>Enjoy life</span></div>
-                  <div class="m2them_p1">这是一种瑰丽的、繁复的、细致的、高级的旅行方式。要求旅行者有豁达的心境，善于发现生活中的“美”，见到美好的事物能激发自身赞颂美的本能，可以为美好的情感一掷千金终不悔。     </div>
-                  <p align="right"><a href="/themelist/77/" class="m2them_more2"></a></p>
-              </div>
-            </div>
-          </div>
-      </li>
-      <li style="background: url(image/background-baby.jpg) no-repeat center bottom; height:400px; border-bottom: 3px solid white;">
+      <li style="background: url(image/background-house.jpg) no-repeat center bottom; height:400px; border-bottom: 2px solid white;">
           <div class="container">
             <div class="col-md-6"></div>
             <div class="col-md-6">
@@ -271,17 +277,16 @@
                   <p align="right"><a href="/themelist/77/" class="m2them_more2"></a></p>
               </div>
             </div>
-          </div>
+          </div><!--房产-->
       </li>
     </div>
-      <!-- /END THE PROJECTS -->
+    <!-- /END THE SERVICES -->
 
 
 
 
-
-        <!-- /START THE FEATURES -->
-    <div class="main-container background-tiffany">
+    <!-- /START THE FEATURES -->
+    <div class="main-container">
       <div class="row text-center" style="padding-top: 20px;">
         <dl class="col-sm-3 ">
             <dt></dt>
@@ -290,7 +295,7 @@
                 <h2>阳光价格</h2>
                 <p>同类产品，保证低价</p>
             </dd>
-        </dl>
+        </dl><!--阳光价格-->
         <dl class="col-sm-3">
             <dt></dt>
             <dd>
@@ -298,7 +303,7 @@
                 <h2>阳光行程</h2>
                 <p>品质护航，透明公开</p>
             </dd>
-        </dl>
+        </dl><!--阳光行程-->
         <dl class="col-sm-3">
             <dt></dt>
             <dd>
@@ -306,7 +311,7 @@
                 <h2>阳光服务</h2>
                 <p>专属客服，快速响应</p>
             </dd>
-        </dl>
+        </dl><!--阳光服务-->
         <dl class="col-sm-3">
             <dt></dt>
             <dd>
@@ -314,14 +319,15 @@
                 <h2>救援保障</h2>
                 <p>途中意外，保证援助</p>
             </dd>
-        </dl>
+        </dl><!--救援保障-->
       </div>
     </div>
-        <!-- END THE FEATURES -->
+    <!-- END THE FEATURES -->
 
 
 
     <div class="main-container background-tiffany">
+
       <!-- START FOOTER -->
       <footer class="text-center">
         <p style="padding-top: 20px;">&copy; 2016 Feifan North America Inc.</p>
@@ -331,43 +337,41 @@
         <a href="http://www.feifanus.com/servers/index_10.html" target="_blank" rel="nofollow" style="color:#fff;">隐私保护</a>&nbsp&nbsp
         <a href="http://www.feifanus.com/servers/index_7.html" target="_blank" rel="nofollow" style="color:#fff;">法律声明</a>
       </footer>
-      <!-- START FOOTER -->
+      <!-- END FOOTER -->
 
 
-    <!--START 友情链接-->
 
-     <div class="st-link main-container">
-        <div class="wm-1200">
-            <div class="st-link-list text-center">
-                <dl>
-                    <dt class="h4" style="padding-top:20px;">友情链接：</dt>
-                    <div class="container">
-                      <dl class="col-sm-3"></dl>
-                      <dl class="col-sm-3">
-                          <dt></dt>
-                          <dd>
-                              <img src="image/ustrip_logo.jpg" height="40px">
-                              <p style="margin-top:10px;">走四方酒店预订</p>
-                          </dd>
-                      </dl>
-                      <dl class="col-sm-3">
-                          <dt></dt>
-                          <dd>
-                              <img src="image/gogogous-logo.jpg" height="40px">
-                              <p style="margin-top:10px;">佳晨旅游</p>
-                          </dd>
-                      </dl>
-                      <dl class="col-sm-3"></dl>
-                    </div>
-                </dl>
-            </div>
+      <!--START 友情链接-->
+       <div class="st-link">
+          <div class="wm-1200">
+              <div class="st-link-list text-center">
+                  <dl>
+                      <dt class="h4" style="padding-top:20px;">友情链接：</dt>
+                      <div class="container">
+                        <dl class="col-sm-3"></dl>
+                        <dl class="col-sm-3">
+                            <dt></dt>
+                            <dd>
+                                <img src="image/ustrip_logo.jpg" height="40px">
+                                <p style="margin-top:10px;">走四方酒店预订</p>
+                            </dd>
+                        </dl>
+                        <dl class="col-sm-3">
+                            <dt></dt>
+                            <dd>
+                                <img src="image/gogogous-logo.jpg" height="40px">
+                                <p style="margin-top:10px;">佳晨旅游</p>
+                            </dd>
+                        </dl>
+                        <dl class="col-sm-3"></dl>
+                      </div>
+                  </dl>
+              </div>
+          </div>
         </div>
-      </div>
-    </div>
       <!--END 友情链接-->
 
-
-
+    </div>
 
     <!-- TODO: BACK TO TOP, 微信扫描，电话咨询类似HH-->
 
